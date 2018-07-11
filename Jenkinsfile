@@ -2,7 +2,7 @@
 
 @Library('sec_ci_libs@v2-latest') _
 
-def main_branches = ["releases/1.6", "releases/1.5", "releases/1.4", "master", ] as String[]
+def main_branches = ["releases/1.6-whitelist-test", "releases/1.6", "releases/1.5", "releases/1.4", "master", ] as String[]
 
 ansiColor('xterm') {
   // using mesos node because it's a lightweight alpine docker image instead of full VM
